@@ -27,4 +27,7 @@ def main(page: Page):
     )
 
 # Modo DESKTOP
-flet.app(target=main)
+# flet.app(target=main)
+
+# Modo WEB
+flet.app(target=main, view=flet.WEB_BROWSER)
